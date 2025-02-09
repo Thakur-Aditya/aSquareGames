@@ -1,10 +1,9 @@
-import Ludo from "@/component/ludo";
+import LudoBoard from "@/component/LudoBoard";
 
 export default function Home() {
   return (
     <main>
-      <Ludo />
-      <Ludo2/>
+      <LudoBoard/>
     </main>
   );
 }
